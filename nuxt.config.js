@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 export default {
   mode: 'spa',
   server: {
@@ -37,7 +39,7 @@ export default {
    */
   modules: [
     '@nuxtjs/axios',
-    "@nuxtjs/dotenv",
+    "@nuxtjs/dotenv"
   ],
   /*
    ** Build configuration
